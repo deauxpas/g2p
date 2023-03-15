@@ -8,7 +8,6 @@ here = path.abspath(path.dirname(__file__))
 # Get the long description from the README file
 with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
-
 setup(
   name = 'g2p_en',
   packages = ['g2p_en'], # this must be the same as the name above
@@ -26,7 +25,7 @@ setup(
     'nltk>=3.2.4',
     'inflect>=0.3.1',
     'distance>=0.1.3',
-    'uberduct>=0.0.3',
+    'uberduct>=0.0.5',
   ],
   license='Apache Software License',
   include_package_data=True
